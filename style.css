@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto";
+    background: linear-gradient(150deg, #0f2b05, #000000);
+    height: 100%;
+    text-align: center;
+}
+
+header {
+    padding: 65px 0;
+}
+
+.card {
+    display: inline-block;
+    width: 354px;
+    height: 508px;
+
+    background-image: url(assets/card-explorer.svg);
+    cursor: pointer;
+}
+
+.card > img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: solid 4px #f7dd43;
+    margin-top: 115px;
+}
+
+.info {
+    margin-left: 70px;
+    margin-top: 98px;
+    text-align: left;
+    color: white;
+}
+
+.card .info h1 {
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.card .info p {
+    font-size: 14px;
+}
