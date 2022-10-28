@@ -51,16 +51,18 @@ header {
 }
 
 .rotate-card {
-    animation: spin 500ms reverse;
-}
-
-.card-animaion {
     animation: spin 500ms normal;
 }
 
+.card-animaion {
+    animation: spin 500ms reverse;
+}
+
 @keyframes spin {
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
+    from {
+        transform: rotateY(45deg);
+    }
+    to {
+        transform: rotateY(360deg);
     }
 }
