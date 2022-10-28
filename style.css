@@ -9,6 +9,7 @@ body {
     background: linear-gradient(150deg, #0f2b05, #000000);
     height: 100%;
     text-align: center;
+    overflow-x: hidden;
 }
 
 header {
@@ -20,7 +21,7 @@ header {
     width: 354px;
     height: 508px;
 
-    background-image: url(assets/card-explorer.svg);
+    background-image: url(assets/card-ignite.svg);
     cursor: pointer;
 }
 
@@ -47,4 +48,19 @@ header {
 
 .card .info p {
     font-size: 14px;
+}
+
+.rotate-card {
+    animation: spin 500ms reverse;
+}
+
+.card-animaion {
+    animation: spin 500ms normal;
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
 }

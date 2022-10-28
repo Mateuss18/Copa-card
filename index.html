@@ -7,11 +7,11 @@
             href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
             rel="stylesheet"
         />
-        <link rel="stylesheet" href="style.css" />
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Card Copa</title>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <header>
@@ -21,18 +21,20 @@
             />
         </header>
 
-        <div
-            class="card"
-            ondblclick="changeCard(event)"
-            onselectstart="return false"
-        >
-            <img
-                src="https://avatars.githubusercontent.com/u/71786964?v=4"
-                alt="Foto de Mateus Lopes"
-            />
-            <div class="info">
-                <h1>Mateus Lopes</h1>
-                <p>Desenvolvedor Front-End</p>
+        <div class="card-animaion">
+            <div
+                class="card"
+                ondblclick="changeCard(event)"
+                onselectstart="return false"
+            >
+                <img
+                    src="https://avatars.githubusercontent.com/u/71786964?v=4"
+                    alt="Foto de Mateus Lopes"
+                />
+                <div class="info">
+                    <h1>Mateus Lopes</h1>
+                    <p>Desenvolvedor Front-End</p>
+                </div>
             </div>
         </div>
         <script src="./script.js"></script>
