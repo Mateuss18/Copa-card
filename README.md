@@ -1,5 +1,5 @@
-<div align="center">
-  <img src="https://i.imgur.com/0NEokZL.png">
+<div align="center" style="padding-top: 20px">
+  <img src="./assets/Logo NLW Copa - cores claras.svg">
 </div>
 
 <h1 align="center">
@@ -7,7 +7,7 @@
 </h1>
 
 <h3 align="center">
-  Um card temático da copa do mundo Cátar 2022
+  Um card temático animado da copa do mundo no Catar 2022
 </h3>
 
 <p align="center">
@@ -17,9 +17,14 @@
     <a href="#📝-licença">Licença</a>
 </p>
 
-### [🔗 Clique aqui para vizualizar a página!](https://ufos-community.vercel.app)
+### [🔗 Clique aqui para vizualizar a página!](https://mateuss18.github.io/Copa-card/)
 <div align="center">
-  <img src="https://i.imgur.com/fY9CiCT.png">
+  <img src="./assets/project-image.png">
+</div>
+
+## 🎬 Video de demonstração
+<div align="center">
+  <img src="./assets/project-video.gif">
 </div>
 
 >
